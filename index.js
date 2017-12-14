@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-// import Image from 'components/Image';
+ import Image from 'components/Image';
 
 class ModuleDemo extends Component {
    componentWillMount() {
