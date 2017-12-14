@@ -3,7 +3,28 @@ import React, { Component, PropTypes } from 'react';
 
 class ModuleDemo extends Component {
    
- //  <Image width={280} src={'http://franklydemo.images.worldnow.com/images/15208935_G.jpeg'} alt={'alt'} />
+ componentWillMount() {
+      console.log('Component WILL MOUNT!')
+   }
+   componentDidMount() {
+      console.log('Component DID MOUNT!')
+   }
+   componentWillReceiveProps(newProps) {    
+      console.log('Component WILL RECIEVE PROPS!')
+   }
+   shouldComponentUpdate(newProps, newState) {
+      console.log('shouldComponentUpdate!')
+      return true;
+   }
+   componentWillUpdate(nextProps, nextState) {
+      console.log('Component WILL UPDATE!');
+   }
+   componentDidUpdate(prevProps, prevState) {
+      console.log('Component DID UPDATE!')
+   }
+   componentWillUnmount() {
+      console.log('Component WILL UNMOUNT!')
+   }
 
 	
   render(){
