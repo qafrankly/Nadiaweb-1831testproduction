@@ -24,7 +24,7 @@ class ModuleDemo extends Component {
    componentWillUnmount() {
       console.log('Component WILL UNMOUNT!')
    }
-   <Image width={280} src={'http://franklydemo.images.worldnow.com/images/15208935_G.jpeg'} alt={'alt'} />
+ //  <Image width={280} src={'http://franklydemo.images.worldnow.com/images/15208935_G.jpeg'} alt={'alt'} />
 
 	
   render(){
